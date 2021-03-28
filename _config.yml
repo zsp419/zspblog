@@ -12,3 +12,5 @@ repository: zsp419/zspblog.github.io
 github_url: https://github.com/zsp419
 url: https://www.zsp419.top/
 enforce_ssl: zsp419.top
+
+theme: jekyll-theme-midnight
