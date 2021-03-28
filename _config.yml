@@ -12,35 +12,3 @@ repository: zsp419/zspblog.github.io
 github_url: https://github.com/zsp419
 url: https://www.zsp419.top/
 enforce_ssl: zsp419.top
-
-## Gem
-plugins:
-  - jekyll-paginate
-  - jekyll-geo-pattern
-  - rouge
-  - kramdown
-  - jekyll-github-metadata
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-
-source:      .
-destination: ./_site
-
-quiet:    false
-defaults: []
-
-kramdown:
-  input: GFM
-  enable_coderay: true
-  syntax_highlighter: rouge
-
-syntax_highlighter_opts:
-   coderay_line_numbers:  nil
-
-# Pagination
-paginate: 12
-paginate_path: 'page:num'
